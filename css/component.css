@@ -1,6 +1,5 @@
 .og-grid {
-	list-style: none;
-	padding: 20px 0;
+	padding: 0px 0;
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
@@ -23,7 +22,7 @@
 .og-grid li.og-expanded > a::after {
 	top: auto;
 	border: solid transparent;
-	content: " ";
+	content: " "; 
 	height: 0;
 	width: 0;
 	position: absolute;
@@ -47,7 +46,7 @@
 }
 
 .og-expander-inner {
-	padding: 50px 30px;
+	padding: 50px 20px;
 }
 
 .og-close {
@@ -108,7 +107,7 @@
 
 .og-details h3 {
 	font-weight: 300;
-	font-size: 52px;
+	font-size: 22px;
 	padding: 40px 0 10px;
 	margin-bottom: 10px;
 }
@@ -117,7 +116,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
-	color: #999;
+	color: #000;
 }
 
 .og-details a {
@@ -134,7 +133,6 @@
 }
 
 .og-details a::before {
-	content: '\2192';
 	display: inline-block;
 	margin-right: 10px;
 }
@@ -190,4 +188,10 @@
 	.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; }
 	
+}
+
+.quote {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
 }
